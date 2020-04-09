@@ -23,6 +23,8 @@ Decidim.register_component(:proposals) do |component|
   component.component_form_class_name = "Decidim::Proposals::Admin::ComponentForm"
 
   component.settings(:global) do |settings|
+    settings.attribute :scopes_enabled, type: :boolean, default: false
+    settings.attribute :scope_id, type: :integer
     settings.attribute :vote_limit, type: :integer, default: 0
     settings.attribute :minimum_votes_per_user, type: :integer, default: 0
     settings.attribute :proposal_limit, type: :integer, default: 0
