@@ -92,7 +92,8 @@ module Decidim
         integer: { klass: Integer, default: 0 },
         string: { klass: String, default: nil },
         text: { klass: String, default: nil },
-        array: { klass: Array, default: [] }
+        array: { klass: Array, default: [] },
+        scope: { klass: Integer, default: nil }
       }.freeze
 
       attribute :type, Symbol, default: :boolean

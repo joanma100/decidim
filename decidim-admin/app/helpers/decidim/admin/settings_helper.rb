@@ -25,7 +25,7 @@ module Decidim
       def settings_attribute_input(form, attribute, name, options = {})
         if name == :amendments_visibility
           amendments_visibility_form_field(form, options)
-        elsif name == :scope_id
+        elsif attribute.type.to_sym == :scope
           scopes_picker_field(form, name)
         elsif attribute.translated?
           form_method = form_method_for_attribute(attribute)
