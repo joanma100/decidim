@@ -65,6 +65,7 @@ Due to [\#5553](https://github.com/decidim/decidim/pull/5553), SSL is turned on 
 - **decidim-initiatives**: Add pages for versioning. [\#5935](https://github.com/decidim/decidim/pull/5935)
 - **decidim-core**: Added support for enum settings for components [#6001](https://github.com/decidim/decidim/pull/6001)
 - **decidim-core**: Added support for readonly settings for components [#6001](https://github.com/decidim/decidim/pull/6001)
+- **decidim-surveys**: Allow surveys to have multiple pages [\#6010](https://github.com/decidim/decidim/pull/6010)
 
 ### Changed
 
