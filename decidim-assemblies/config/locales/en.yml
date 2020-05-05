@@ -270,7 +270,6 @@ en:
         assembly_copies:
           form:
             slug_help: 'URL slugs are used to generate the URLs that point to this assembly. Only accepts letters, numbers and dashes, and must start with a letter. Example: %{url}'
-
         assembly_members:
           form:
             existing_user: Existing participant
@@ -384,6 +383,13 @@ en:
         home:
           highlighted_conferences:
             conferences_button_title: Link to the Conferences page displaying all the conferences
+    events:
+      assembly:
+        role_assigned:
+          email_intro: You have been assigned as %{role} for assembly "%{resource_title}".
+          email_outro: You have received this notification because you are %{role} of the "%{resource_title}" assembly.
+          email_subject: You have been assigned as %{role} for "%{resource_title}".
+          notification_title: You have been assigned as %{role} for assembly <a href="%{resource_url}">%{resource_title}</a>.
     help:
       participatory_spaces:
         assemblies:
