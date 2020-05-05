@@ -61,6 +61,8 @@ Due to [\#5553](https://github.com/decidim/decidim/pull/5553), SSL is turned on 
 - **decidim-core**: Add redesign for responsive public profile navigation tabs [\#6032](https://github.com/decidim/decidim/pull/6032)
 - **decidim-initiatives**: Add pages for versioning. [\#5935](https://github.com/decidim/decidim/pull/5935)
 
+-**decidim-assemblies**: Added a setting for assemblies to enable or disable the visibility of the organization chart. [\#6040] (https://github.com/decidim/decidim/pull/6040)
+
 ### Changed
 
 - **decidim-accountability**, **decidim-core**, **decidim-meetings**, **decidim-proposals**: Optimize queries for performance in Homepage, process page, proposals page and coauthorable cell. [\#5903](https://github.com/decidim/decidim/pull/5903)
