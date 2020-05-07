@@ -56,7 +56,7 @@ Decidim.register_component(:budgets_groups) do |component|
         highlighted_heading: Decidim::Faker::Localized.sentence(4),
         list_heading: Decidim::Faker::Localized.sentence(4),
         workflow: %w(one random all).sample
-      },
+      }
     )
 
     3.times do
