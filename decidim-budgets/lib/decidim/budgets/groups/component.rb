@@ -11,7 +11,7 @@ Decidim.register_component(:budgets_groups) do |component|
   component.allow_children = true
 
   component.settings(:global) do |settings|
-    settings.attribute :workflow, type: :string, default: "one"
+    settings.attribute :workflow, type: :enum, default: "one", choices: -> { Decidim::Budgets::Groups.workflows.keys }
     settings.attribute :title, type: :string, translated: true
     settings.attribute :description, type: :text, translated: true
     settings.attribute :highlighted_heading, type: :text, translated: true

@@ -194,6 +194,10 @@ en:
             list_heading: List heading
             title: Title
             workflow: Workflow
+            workflow_choices:
+              all: Vote in all
+              one: Vote in one
+              random: Vote in a random component
           step:
             announcement: Announcement
             description: Description
