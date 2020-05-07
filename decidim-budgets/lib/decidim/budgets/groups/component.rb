@@ -12,6 +12,7 @@ Decidim.register_component(:budgets_groups) do |component|
   component.allow_children = true
 
   component.settings(:global) do |settings|
+    settings.attribute :workflow, type: :string, default: "one"
     settings.attribute :title, type: :string, translated: true
     settings.attribute :description, type: :text, translated: true, editor: true
     settings.attribute :announcement, type: :text, translated: true
@@ -32,6 +33,7 @@ Decidim.register_component(:budgets_groups) do |component|
       manifest_name: :budgets_groups,
       published_at: Time.current,
       participatory_space: participatory_space
+        workflow: %w(one random all).sample
     )
 
     3.times do

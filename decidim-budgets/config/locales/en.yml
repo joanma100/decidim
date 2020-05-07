@@ -179,6 +179,7 @@ en:
             announcement: Announcement
             description: Description
             title: Title
+            workflow: Workflow
           step:
             announcement: Announcement
     orders:
