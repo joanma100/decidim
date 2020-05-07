@@ -49,7 +49,9 @@ $(() => {
 
   svg4everybody();
 
-  $('[data-reveal-open]').foundation('open');
+  if ($('[data-reveal-open]').length > 0) {
+    $('[data-reveal-open]').foundation('open');
+  }
 
   if (window.Decidim.formDatePicker) {
     window.Decidim.formDatePicker();
