@@ -178,10 +178,16 @@ en:
           global:
             announcement: Announcement
             description: Description
+            highlighted_heading: Highlighted heading
+            list_heading: List heading
             title: Title
             workflow: Workflow
           step:
             announcement: Announcement
+            description: Description
+            highlighted_heading: Highlighted heading
+            list_heading: List heading
+            title: Title
     orders:
       checkout:
         error: There was a problem processing your vote
